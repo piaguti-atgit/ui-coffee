@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="esp">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,16 +12,19 @@
 
 <body>
     <div class="container">
+        <header>
         <div class="jumbotron text-center">
             <h1 class="display-4">Bienvenidos a Cafetería XYZ</h1>
             <p class="lead">¡La mejor cafetería de la ciudad!</p>
-            <img src="https://source.unsplash.com/random/200x200?coffee" />
+            <img alt="girl idk I cant see it either" src="https://source.unsplash.com/random/200x200?coffee" />
             <hr class="my-4">
             <p>Horario de apertura: Lunes a Viernes, 8:00 AM - 6:00 PM</p>
         </div>
+        </header>
+        <main>
         <div class="row">
             <div class="col-md-6">
-                <h4>Nuestros productos</h4>
+                <h2>Nuestros productos</h2>
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action">Café - $2.50</a>
                     <a class="list-group-item list-group-item-action">Capuchino - $3.00</a>
@@ -30,15 +33,18 @@
             </div>
             <div class="col-md-6">
                 <div class="container">
-                    <h6>Contacto</h6>
+                    <h3>Contacto</h3>
                     <form action="#" method="post">
                         <div class="form-group">
+                            <label for="nombre">Nombre</label>
                             <input type="text" class="form-control" id="nombre" placeholder="Nombre">
                         </div>
                         <div class="form-group">
+                            <label for="email">Mail</label>
                             <input type="email" class="form-control" id="email" placeholder="Correo electrónico">
                         </div>
                         <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
                             <textarea class="form-control" id="mensaje" rows="3" placeholder="Mensaje"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Enviar</button>
@@ -46,6 +52,7 @@
                 </div>
             </div>
         </div>
+        </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

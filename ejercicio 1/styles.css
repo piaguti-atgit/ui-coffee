@@ -1,12 +1,12 @@
 body {
-    background-color: #527AA3;
-    color: #333;
+    background-color: #06243e;
+    color: #f6f2f2;
 }
 .container {
     margin-top: 50px;
 }
 .jumbotron {
-    background-color: #527AA3;
+    background-color: #1d4b7a;
 }
 .btn-primary {
     background-color: #06243e;
